@@ -1,0 +1,22 @@
+{
+  "name": "cpp-addon-for-nodejs",
+  "version": "1.0.0",
+  "description": "example repo to show how to integrate cpp code into nodejs as addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olehcambel/cpp-addon-for-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/olehcambel/cpp-addon-for-nodejs/issues"
+  },
+  "homepage": "https://github.com/olehcambel/cpp-addon-for-nodejs#readme"
+}

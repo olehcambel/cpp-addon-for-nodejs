@@ -7,6 +7,7 @@ void Sum(const v8::FunctionCallbackInfo<v8::Value> &args)
     long int i;
     double pi = 3.1415926, e = 2.718;
 
+    // for (i = 0; i < 100000000; i++)
     for (i = 0; i < 10000000000; i++)
     {
         pi += e;

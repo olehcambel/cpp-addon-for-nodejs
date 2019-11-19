@@ -11,7 +11,7 @@ $ npm i -g node-gyp
 # ubuntu
 $ sudo apt-get install build-essential
 # config compiler
-# compile app
+# compile app OR via npm run install
 $ node-gyp configure build
 # ./bootstrap-vcpkg.sh
 ```
@@ -27,3 +27,16 @@ config compiler - binding.gyp. Later: `const addon = require("../build/Release/a
     ]
 }
 ```
+
+
+## c++ addon. register module/func
+```cpp
+void Initialize(v8::Local<v8::Object> exports)
+{
+    NODE_SET_METHOD(exports, "sum", Sum);
+}
+
+NODE_MODULE(addon, Initialize)
+
+```
+

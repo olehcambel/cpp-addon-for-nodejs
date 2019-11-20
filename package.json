@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/olehcambel/cpp-addon-for-nodejs/issues"
   },
-  "homepage": "https://github.com/olehcambel/cpp-addon-for-nodejs#readme"
+  "homepage": "https://github.com/olehcambel/cpp-addon-for-nodejs#readme",
+  "dependencies": {
+    "node-gyp": "^6.0.1"
+  }
 }
